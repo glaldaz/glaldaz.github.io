@@ -1,11 +1,50 @@
-h1 {
-    text-align: center;
-    padding:30px
+body {
+    background-color: rgb(10, 187, 247);
 }
+
+/*header*/
+.name-header {
+    text-align: center;
+    padding-top:10px;
+    font-size: 6em;
+    background-color: white;
+    color: darkslategrey;
+}
+
+/*background*/
+.background-div {
+    background-color:darkslategrey;
+    color: white;
+}
+
+.contact-wrapper {
+    margin-left:15%;
+}
+
+.picture-willy {
+    width: 100px;
+    margin: 20px;
+    border-radius: 30%;
+    display: inline-block;
+}
+
+.contact-div {
+    display:inline-block;
+    font-size: 1.3em;
+    vertical-align: middle;
+}
+
+.my-bio-div {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2em;
+    width: 60%;
+}
+
+/*video*/
 .my-video-div {
     max-width: 900px;
     margin-left:auto;
     margin-right: auto;
-    background-color: lightgrey;
     padding: 20px;
 }
