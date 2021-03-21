@@ -1,9 +1,15 @@
-body {
-    background-color: rgb(10, 187, 247);
+.body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto 1fr auto;
 }
 
 /*header*/
-.name-header {
+.header {
+    grid-column: 1 / 3;
+}
+
+.page-header {
     text-align: center;
     padding-top:10px;
     font-size: 6em;
@@ -12,9 +18,12 @@ body {
 }
 
 /*background*/
-.background-div {
+.baner-div {
     background-color:darkslategrey;
     color: white;
+}
+.projects-description {
+    text-align: center;
 }
 
 .contact-wrapper {
@@ -38,13 +47,47 @@ body {
     display: inline-block;
     vertical-align: middle;
     padding: 2em;
-    width: 60%;
+    width: 70%;
+}
+
+/*skills*/
+.aside {
+    background-color:darkslategrey;
+    color: white;
+    margin: 2em;
+    padding: 2em;
 }
 
 /*video*/
-.my-video-div {
-    max-width: 900px;
-    margin-left:auto;
-    margin-right: auto;
-    padding: 20px;
+.my-video {
+    display:flex;
+    width: fit-content;
+    margin: 2em
+}
+
+/*projects cards*/
+.project-cards {
+    width: 80%;
+    margin: 2em;
+    color: darkslategrey;
+    border-style:solid;
+    border-color: darkslategrey;
+}
+
+.my-card-header {
+    background-color: darkslategray;
+    padding: .5em;
+    color: white;
+}
+
+.my-card-text {
+    margin: 2em;
+}
+
+/*footer*/
+.footer {
+    background-color:darkslategrey;
+    color: white;
+    padding: 0.5em;
+    grid-column: 1 / 3;
 }
