@@ -84,6 +84,13 @@
     margin: 2em;
 }
 
+.my-button {
+    margin-left: 2em;
+    margin-bottom: 2em;
+    background: darkslategray;
+    color:white;
+}
+
 /*footer*/
 .footer {
     background-color:darkslategrey;
